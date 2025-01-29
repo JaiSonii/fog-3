@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className="w-full h-screen bg-black flex flex-col items-center justify-center">
-      <h1 className="text-neon text-4xl font-bold mb-4 text-white">Dynamic Grid (FOG-2)</h1>
+      <h1 className="text-neon text-4xl font-bold mb-4 text-white">Dynamic Grid (FOG-3)</h1>
       <div className="grid-container bg-gray-900 p-2 rounded-lg shadow-lg overflow-hidden">
         {Array.from({ length: rows }).map((_, j) => (
           <div key={j} className="flex">
